@@ -16,9 +16,8 @@ for wall in range(len(walls)):
     print(wall1)
     print("----------------------------------------")
     print(ifcopenshell.util.element.get_psets(wall1))
-
-
-
+ 
+# 
 """
 print(model.by_id(1))
 
@@ -27,4 +26,4 @@ walls = model.by_type('IfcWall')
 print(walls[0])
 
 print(len(walls))
-"""
+"""#

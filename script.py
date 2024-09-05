@@ -1,7 +1,7 @@
 import ifcopenshell
 import ifcopenshell.util.element as Element
 
-model = ifcopenshell.open('./modal/IFC-2-1.ifc')
+model = ifcopenshell.open('./modal/IFC-1-1.ifc')
 
 #CREAMOS FUNCIÓN PARA FILTRAR POR TIPO
 def allData (model, type):
